@@ -1,0 +1,52 @@
+.header {
+  padding: 0;
+  margin: -10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(16, 95, 95);
+  gap: 50px;
+}
+
+.header img {
+  height: 55px;
+}
+
+.header h2 {
+  color: white;
+}
+
+.botoes {
+  display: flex;
+  gap: 5px;
+}
+
+.botoes button {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .header img {
+    margin-left: 20px;
+    height: 60px;
+  }
+
+  .header h2 {
+    text-align: center;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+
+  .botoes button {
+    padding: 3px;
+    width: fit-content;
+  }
+}

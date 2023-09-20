@@ -1,0 +1,49 @@
+.usuario-completo {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.usuario-completo p {
+  margin-top: -25px;
+  width: 30vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.usuario-completo h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.usuario {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #16ade7;
+}
+
+.usuario-name {
+  margin-top: 30px;
+  color: black;
+}
+
+.usuario-email {
+  margin-top: -5px;
+}
+
+.usuario img {
+  width: 200px;
+  border-radius: 40%;
+}
+
+@media (max-width: 1000px) {
+  .usuario-completo p {
+    width: 80vw;
+    margin-bottom: -10px;
+  }
+}

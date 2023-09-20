@@ -1,0 +1,107 @@
+.inicio-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 100px;
+}
+
+.inicio-conteudo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inicio-conteudo h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 72px;
+  text-decoration: underline;
+  margin-bottom: -10px;
+}
+
+.inicio-conteudo p {
+  color: white;
+  font-size: 24px;
+  width: 35vw;
+}
+
+.inicio-conteudo button {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(165, 154, 154, 0.5); /* Adiciona uma sombra suave */
+  width: fit-content;
+  cursor: pointer;
+}
+
+.inicio-imagem img {
+  width: 30vw;
+}
+
+@media (max-width: 1000px) {
+  .inicio-todo {
+    margin-top: -40px;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .inicio-conteudo {
+    margin-top: -15px;
+    align-items: center;
+  }
+
+  .inicio-conteudo p {
+    text-align: center;
+    width: 50vw;
+  }
+
+  .inicio-conteudo button {
+    width: 100%;
+  }
+
+  .inicio-imagem {
+    order: -1;
+  }
+
+  .inicio-imagem img {
+    width: 20vw;
+    margin: -50px;
+  }
+}
+
+/* Imagem de fundo para celulares */
+@media (max-width: 767px) {
+  .inicio-todo {
+    background-image: url('./src/img/pagina-inicio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* Imagem de fundo para tablets */
+@media (min-width: 768px) and (max-width: 1000px) {
+  .inicio-todo {
+    background-image: url('./src/img/pagina-inicio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+/* Imagem de fundo para PCs */
+@media (min-width: 1000px) {
+  .inicio-todo {
+    background-image: url('./src/img/pagina-inicio.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

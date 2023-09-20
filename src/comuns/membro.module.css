@@ -1,0 +1,25 @@
+.membro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membro img {
+  width: 200px;
+  border-radius: 40%;
+  margin-bottom: 10px;
+}
+
+.nome-membro {
+  margin-top: -2px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rm-membro {
+  margin-top: -2px;
+  font-size: 18px;
+  color: #16ade7;
+  font-weight: bold;
+}

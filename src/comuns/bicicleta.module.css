@@ -1,0 +1,124 @@
+.bicicleta-user {
+  display: flex;
+  gap: 5vw;
+  margin-top: 60px;
+}
+
+.bicicleta-template {
+  display: flex;
+  gap: 5vw;
+  margin-top: 80px;
+}
+
+.bicicleta-user .membro img {
+  width: 150px;
+}
+
+.bicicleta-user .membro {
+  margin-top: 40px;
+}
+
+.bicicletas {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bicicleta {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.bicicleta img {
+  height: 200px;
+}
+
+.bicicleta-infos {
+  display: flex;
+  flex-direction: column;
+}
+
+.linha {
+  display: flex;
+  gap: 10px;
+}
+
+.modelo {
+  font-size: 30px;
+}
+
+.linha {
+  margin-top: -30px;
+}
+
+.linha h3 {
+  font-size: 15px;
+  color: rgb(43, 150, 150);
+}
+
+.aprovado {
+  margin-top: 0px;
+  margin-bottom: -5px;
+}
+
+.reprovado {
+  margin-top: 0px;
+  margin-bottom: -5px;
+  color: rgb(75, 16, 16);
+}
+
+.naoAnalizado {
+  margin-top: 0px;
+  margin-bottom: -5px;
+  color: rgb(153, 140, 67);
+}
+
+.preco {
+  color: rgb(110, 163, 29);
+  margin-bottom: 8px;
+}
+
+.bicicleta button {
+  background-color: rgb(16, 16, 36);
+  width: fit-content;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .bicicleta-user {
+    flex-direction: column;
+  }
+
+  .bicicleta {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .bicicleta img {
+    height: 150px;
+    width: 200px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  .bicicleta h3 {
+    text-align: center;
+  }
+
+  .bicicleta h2 {
+    text-align: center;
+  }
+
+  .bicicleta-infos {
+    align-items: center;
+  }
+
+  .bicicleta-user .membro {
+    margin-top: 30px;
+    margin-bottom: -20px;
+  }
+}
